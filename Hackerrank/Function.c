@@ -25,7 +25,6 @@ int main() {
     
     scanf("%d %d %d %d", &x[0], &x[1], &x[2], &x[3]);
     int ans = max_of_four(x[0], x[1], x[2], x[3]);
-    printf("%d", ans);
-    
-    return 0;
+    printf("%d",ans);
+    return 0 ;
 }
